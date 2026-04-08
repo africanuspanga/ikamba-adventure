@@ -10,6 +10,8 @@ import {
   Send,
   MessageCircle,
   CheckCircle,
+  Facebook,
+  Instagram,
 } from "lucide-react";
 
 const travelInterests = [
@@ -176,6 +178,29 @@ export default function ContactPage() {
                   <div className="text-white/80 text-xs font-sans">Usually replies within 1 hour</div>
                 </div>
               </a>
+
+              <div className="flex gap-3 pt-1">
+                <a
+                  href="https://www.facebook.com/share/1J4hRTF9H6/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow us on Facebook"
+                  className="flex items-center gap-2 px-4 py-3 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all duration-200 text-sm font-heading font-semibold text-gray-700 hover:text-blue-600 flex-1 justify-center"
+                >
+                  <Facebook size={18} />
+                  Facebook
+                </a>
+                <a
+                  href="https://www.instagram.com/ikamba_adventure?igsh=MXNsMmtsOHdjcXhiZQ%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Follow us on Instagram"
+                  className="flex items-center gap-2 px-4 py-3 rounded-2xl bg-white shadow-sm hover:shadow-md transition-all duration-200 text-sm font-heading font-semibold text-gray-700 hover:text-pink-600 flex-1 justify-center"
+                >
+                  <Instagram size={18} />
+                  Instagram
+                </a>
+              </div>
             </div>
 
             {/* Recommended logos */}

@@ -17,6 +17,7 @@ const navLinks = [
     ],
   },
   { label: "Kilimanjaro", href: "/kilimanjaro" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Contact", href: "/contact" },
 ];
 

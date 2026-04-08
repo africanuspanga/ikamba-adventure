@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -8,6 +9,20 @@ import {
   MessageCircle,
 } from "lucide-react";
 import { northernCircuitPackages } from "@/lib/northern-circuit";
+
+export const metadata: Metadata = {
+  title: "Northern Circuit Safari | Serengeti, Ngorongoro & More",
+  description:
+    "Discover Tanzania's Northern Circuit — Serengeti, Ngorongoro Crater, Tarangire, Lake Manyara, and Arusha National Park. Book guided safari packages with Ikamba Adventure.",
+  keywords: ["northern circuit safari", "Serengeti safari", "Ngorongoro Crater tour", "Tarangire safari", "Lake Manyara"],
+  openGraph: {
+    title: "Northern Circuit Safari | Ikamba Adventure",
+    description:
+      "Tanzania's Northern Circuit: Serengeti wildebeest migration, Ngorongoro Crater lions, Tarangire elephants. Expert-guided safari packages.",
+    images: [{ url: "/serengeti.jpg", width: 1200, height: 630, alt: "Serengeti Northern Circuit safari" }],
+  },
+  alternates: { canonical: "https://ikambaadventure.com/safaris/northern-circuit" },
+};
 import type { SafariPackage } from "@/lib/northern-circuit";
 
 const parkImages: Record<string, string> = {

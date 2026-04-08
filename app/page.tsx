@@ -18,9 +18,16 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Tanzania Safaris & Kilimanjaro Climbing — Ikamba Adventure",
+  title: "Ikamba Adventure — Tanzania Safaris & Kilimanjaro Climbing",
   description:
-    "Discover Tanzania's wild beauty with Ikamba Adventure. Serengeti safaris, Ngorongoro Crater, Kilimanjaro climbing and authentic cultural experiences tailored just for you.",
+    "Discover Tanzania's wild beauty with Ikamba Adventure. Serengeti safaris, Ngorongoro Crater, Kilimanjaro climbing, and authentic cultural experiences tailored just for you. Based in Dar es Salaam and Arusha.",
+  openGraph: {
+    title: "Ikamba Adventure — Tanzania Safaris & Kilimanjaro Climbing",
+    description:
+      "Serengeti safaris, Ngorongoro Crater, Kilimanjaro climbing and authentic cultural experiences with Tanzania's trusted local tour operator.",
+    images: [{ url: "/Big-Five-safaris-Tanzania.webp", width: 1200, height: 630, alt: "Tanzania safari — Ikamba Adventure" }],
+  },
+  alternates: { canonical: "https://ikambaadventure.com" },
 };
 
 const whyUs = [

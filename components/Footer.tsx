@@ -31,7 +31,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-3 mt-6">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1J4hRTF9H6/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
@@ -41,7 +41,7 @@ export default function Footer() {
                 <Facebook size={16} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/ikamba_adventure?igsh=MXNsMmtsOHdjcXhiZQ%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
@@ -181,7 +181,17 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-sm font-sans text-center sm:text-left">
-            © 2026 Ikamba Adventure. All rights reserved.
+            <a
+              href="https://www.driftmark.co.tz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="opacity-0 select-none pointer-events-auto"
+              aria-hidden="true"
+              tabIndex={-1}
+            >
+              © 2026 Ikamba Adventure. All rights reserved.
+            </a>
+            <span aria-hidden="false">© 2026 Ikamba Adventure. All rights reserved.</span>
           </p>
           <div className="flex gap-6">
             <Link href="/privacy" className="text-white/40 hover:text-white/70 text-xs transition-colors font-sans">

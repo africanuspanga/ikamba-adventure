@@ -4,9 +4,16 @@ import Link from "next/link";
 import { Eye, Target, Heart, Award, ChevronRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Us | Tanzania Tour Operator",
   description:
-    "Learn about Ikamba Adventure — a passionate Tanzania-based tour company dedicated to creating exceptional safari, Kilimanjaro, and cultural travel experiences.",
+    "Learn about Ikamba Adventure — a passionate Tanzania-based tour company with offices in Dar es Salaam and Arusha, dedicated to creating exceptional safari, Kilimanjaro, and cultural travel experiences.",
+  openGraph: {
+    title: "About Ikamba Adventure | Tanzania Tour Operator",
+    description:
+      "Tanzania-based tour operator with local expertise in safaris, Kilimanjaro climbing, and cultural adventures. Meet our team and story.",
+    images: [{ url: "/Big-Five-safaris-Tanzania.webp", width: 1200, height: 630, alt: "Ikamba Adventure team" }],
+  },
+  alternates: { canonical: "https://ikambaadventure.com/about" },
 };
 
 const values = [

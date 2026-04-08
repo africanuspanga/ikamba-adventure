@@ -20,13 +20,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ikambaadventure.co.tz"),
+  metadataBase: new URL("https://ikambaadventure.com"),
   title: {
     default: "Ikamba Adventure — Tanzania Safaris & Kilimanjaro Climbing",
     template: "%s | Ikamba Adventure",
   },
   description:
-    "Experience unforgettable Tanzania safaris, Kilimanjaro climbing, and authentic cultural adventures with Ikamba Adventure — your trusted local tour operator.",
+    "Experience unforgettable Tanzania safaris, Kilimanjaro climbing, and authentic cultural adventures with Ikamba Adventure — your trusted local tour operator based in Tanzania.",
   keywords: [
     "Tanzania safari",
     "Kilimanjaro climbing",
@@ -38,23 +38,27 @@ export const metadata: Metadata = {
     "wildlife safari Tanzania",
     "Dar es Salaam tours",
     "Arusha tours",
+    "southern circuit safari",
+    "northern circuit safari",
+    "Tanzania travel",
+    "Mount Kilimanjaro",
   ],
   authors: [{ name: "Ikamba Adventure" }],
   creator: "Ikamba Adventure",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ikambaadventure.co.tz",
+    url: "https://ikambaadventure.com",
     siteName: "Ikamba Adventure",
     title: "Ikamba Adventure — Tanzania Safaris & Kilimanjaro Climbing",
     description:
-      "Experience unforgettable Tanzania safaris, Kilimanjaro climbing, and authentic cultural adventures.",
+      "Experience unforgettable Tanzania safaris, Kilimanjaro climbing, and authentic cultural adventures with Ikamba Adventure.",
     images: [
       {
-        url: "/Ikamba Adventure logo.png",
+        url: "/Big-Five-safaris-Tanzania.webp",
         width: 1200,
         height: 630,
-        alt: "Ikamba Adventure",
+        alt: "Ikamba Adventure — Tanzania Safaris",
       },
     ],
   },
@@ -63,15 +67,25 @@ export const metadata: Metadata = {
     title: "Ikamba Adventure — Tanzania Safaris & Kilimanjaro Climbing",
     description:
       "Experience unforgettable Tanzania safaris, Kilimanjaro climbing, and authentic cultural adventures.",
+    images: ["/Big-Five-safaris-Tanzania.webp"],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   icons: {
     icon: "/Ikamba favicon.jpg.jpeg",
     shortcut: "/Ikamba favicon.jpg.jpeg",
     apple: "/Ikamba favicon.jpg.jpeg",
+  },
+  alternates: {
+    canonical: "https://ikambaadventure.com",
   },
 };
 

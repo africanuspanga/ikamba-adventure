@@ -4,9 +4,17 @@ import Link from "next/link";
 import { ChevronRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Tanzania Safaris",
+  title: "Tanzania Safaris | Northern & Southern Circuit Packages",
   description:
-    "Explore Tanzania's incredible national parks on a Northern or Southern Circuit safari. Choose from 20+ curated packages with Ikamba Adventure.",
+    "Explore Tanzania's incredible national parks on a Northern or Southern Circuit safari. Serengeti, Ngorongoro, Ruaha, Selous & more. 20+ curated packages with Ikamba Adventure.",
+  keywords: ["Tanzania safari", "northern circuit safari", "southern circuit safari", "Serengeti tour", "Ngorongoro safari"],
+  openGraph: {
+    title: "Tanzania Safari Packages | Ikamba Adventure",
+    description:
+      "Northern & Southern Circuit safaris in Tanzania — Serengeti, Ngorongoro Crater, Ruaha, Selous, and more. Book with Ikamba Adventure.",
+    images: [{ url: "/serengeti.jpg", width: 1200, height: 630, alt: "Tanzania safari" }],
+  },
+  alternates: { canonical: "https://ikambaadventure.com/safaris" },
 };
 
 const circuits = [
