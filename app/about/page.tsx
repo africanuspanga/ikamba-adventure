@@ -105,6 +105,15 @@ export default function AboutPage() {
                 gateways to Tanzania&apos;s greatest adventures — giving us the
                 reach and local connections to serve travelers across the country.
               </p>
+              <p className="text-sm">
+                <span className="font-semibold text-gray-800">Careers:</span> all official recruitment at Ikamba
+                Adventure is announced only on this website. Many tour companies still ask
+                for a formal letter with your CV, and{" "}
+                <a href="https://www.cvchapchap.com/application-letter" className="text-gray-800 underline underline-offset-2">
+                  CV Chap Chap shows how to write a job application letter
+                </a>
+                .
+              </p>
             </div>
             <Link
               href="/contact"
